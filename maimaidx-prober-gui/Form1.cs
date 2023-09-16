@@ -313,5 +313,13 @@ namespace maimaidx_prober_gui
         {
             System.Diagnostics.Process.Start("https://www.diving-fish.com/maimaidx/prober/");
         }
+
+        private void textBox2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "请填入查分器用户名")
+            {
+                textBox2.Text = string.Empty;
+            }
+        }
     }
 }
